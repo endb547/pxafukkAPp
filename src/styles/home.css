@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+body {
+}
+.container {
+  width: 100%;
+  background: #fff;
+  min-height: 100vh;
+  padding-inline: 1em;
+}
+
+.contentSec {
+  padding: 4em 0 2em;
+}
+.logo img {
+  width: 100%;
+  max-width: 150px;
+}
+
+.logo .paxBtn {
+  font-size: 1.2em;
+  border: 1px solid #7e7c7c;
+  padding: 5px 20px;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.title {
+  font-size: 1.7em;
+  font-weight: 500;
+  color: #411b69;
+  line-height: 1.3em;
+  display: flex;
+  justify-content: start;
+  margin: 1.5em 0 0;
+  font-weight: 600;
+}
+.loginWrapper {
+  display: flex;
+  justify-content: center;
+  padding: 0em 0 0;
+}
+.loginSec {
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  min-height: 326px;
+  background: #fff;
+  border-radius: 1em;
+}
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: 550;
+}
+form {
+  padding: 0.76em;
+  margin-top: 0;
+}
+.formInput {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  max-width: 22rem;
+  min-height: 60px;
+  border: 1px solid #bab7b7;
+  margin-bottom: 1em;
+}
+.formInput i {
+  font-size: 1.2em;
+  color: #898787;
+  margin-right: 0.6em;
+}
+form input {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 1.1em;
+  margin-left: 1em;
+}
+
+form input::placeholder {
+  color: #b3b0b0;
+}
+button.homeBtn {
+  width: 100%;
+  height: 100%;
+  min-height: 3.9rem;
+  outline: none;
+  border: none;
+  font-size: 1.5em;
+  font-weight: 500;
+  background: #05A3F1;
+  border-radius: 2px;
+  color: #fff;
+  margin-top: .7em;
+  text-align: start;
+  padding: 0 1em;
+}
+
+.fgp {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-left: 1em;
+  margin-top: 2em;
+  font-size: 1.1em;
+}

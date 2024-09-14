@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background: #fff;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  padding: 0 1em;
+}
+.contentSec {
+  padding: 2em 0 0;
+}
+
+.formSec {
+  width: 100%;
+  height: 80dvh;
+  background: #fff;
+  border-top-right-radius: 1.5em;
+  border-top-left-radius: 1.5em;
+  padding: 2em 0;
+}
+.formPin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formPin input {
+  width: 56px;
+  height: 63px;
+  outline: none;
+  font-weight: 900;
+  font-size: 2em;
+  background: #fff;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-left: .4em;
+}
+.formPin input:focus,.formPin input:focus-visible,.formPin input:focus-within {
+  border: 1px solid #05A3F1;
+}
+.subText {
+  font-size: 1.1em;
+  margin-top: 0.6em;
+}
+.input {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.buttonOtpSec {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5em;
+}
+
+button.paxOtp {
+  width: 100%;
+  height: 3.8rem;
+  border-radius: 0;
+  outline: none;
+  border: none;
+  font-size: 1.2em;
+  font-weight: 500;
+  background: #05A3F1;
+  color: #fff;
+  display: block;
+  text-align: start;
+  padding: 0 1em;
+}
